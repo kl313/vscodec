@@ -4,6 +4,8 @@
 _notes/
 /bower_components/
 /node_modules/
-.vscode/
+/.vscode/
+/erji/
+/arrptr/
 *.exe
 *.json

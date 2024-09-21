@@ -2,8 +2,9 @@
 int main()
 {
     char str[] = "hello";
-    char f[] = {'j','k','l','\0'};
+    int f[] = {'j','k','l','\0'};
     char *t = "back";
-    printf("str=%s r=%s t=%s\n", str,f,t);
+    t+=2;
+    printf("str=%s r=%s t=%s\n", str+1,f+1,t);
     return 0;
 }
